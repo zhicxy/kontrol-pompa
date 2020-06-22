@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Kontrol Pompa</title>
+    </head>
+    <body>
+        <h1>Pilih Tombol</h1>
+        <button class = "btn btn-lg btn-primary">Nyalakan Pompa</button>
+        <button class = "btn btn-lg btn-outline-dark">Matikan Pompa</button>
+
+        <div class="card">
+            <div class="card-header">
+                <h5>Data Parameter Pompa</h5>  
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">Status Pompa : <b class="param">Sedang mengisi</b></h6>
+                <h6 class="card-title">Laju Pengisian Air : <b class="param">2 liter/menit</b></h6>
+                <h6 class="card-title">Perkiraan waktu sampai tandon penuh : <b class="param">30 menit lagi</b></h6>
+
+                <p>Isi tandon sekarang adalah 75%</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+<p class="warning">**Level tandon saat ini tidak akurat. Sementara dalam pengerjaan</p>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+margin-top:100px;
+margin-left :200px;
+margin-right :200px;
+}
+p{
+    padding-top : 50px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+
+.param{
+color:#007BFF;
+}
+
+.warning {
+font-size: 0.8rem;
+}
