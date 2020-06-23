@@ -1,29 +1,61 @@
 body{
-margin-top:100px;
-margin-left :200px;
-margin-right :200px;
+  margin-top:100px;
+  margin-left :200px;
+  margin-right :200px;
 }
 p{
-    padding-top : 50px;
+  padding-top : 50px;
 }
 
 .card {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-
 .param{
-color:#007BFF;
+  color:#007BFF;
 }
 
 .warning {
-font-size: 0.8rem;
+  font-size: 0.8rem;
 }
-@media only screen and (max-width: 600px) {
-  body{
-    background-color:red;
-    margin-top:10px;
-    margin-left :20px;
-    margin-right :20px;
+
+/*font conversion SP/16 =rem
+ * convertion ratio : 2.4
+ * 1 rem in web  = 2.4 rem in mobile
+ */
+
+  @media (max-width: 1024px) {
+    .btn{
+      height:150px;
+    }
+    h1{
+      visibility:hidden;
+    }
+    .card{
+      margin-top:100px;
+    }
+    .btn-outline-dark{
+      margin-left : 20px;
+    }
+    h1{
+      font-size:6rem;
+    }
+    h5{
+      font-size:3rem;
+    }
+    .btn{
+      font-size:3rem;
+    }
+    .param, .card-title{
+      font-size:2rem;
+    }
+    p, .warning {
+      font-size:1.5rem
+    }
+    body{
+      margin-top:10px;
+      margin-left :20px;
+      margin-right :20px;
+    }
+
   }
-} 
